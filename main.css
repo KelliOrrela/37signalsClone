@@ -1,0 +1,211 @@
+/*
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*main styles*/
+
+body {
+	background-image: url("logo-37s-large.png"), url("img-hr.png");
+	background-position: center top 75px, center bottom -295px;
+	background-repeat: no-repeat;
+	color: #232323;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	margin: 8px;
+	padding: 30px 0;
+	text-align: center;
+}
+
+a {
+	color: #369;
+	text-decoration: none;
+}
+
+nav {
+	margin: -35px 0 40px 0;
+	padding: 10px 20px 0 20px;
+}
+nav ul {
+	display: block;
+	margin: 0 10px 0;
+	padding-top: 4px;
+	text-align: right;
+}
+nav li {
+	color: #336699;
+	display: inline-block;
+	line-height: 1.5em;
+	padding: 4px 10px 0 0;
+}
+nav li a:hover {
+	color: #6699cc;
+}
+li#day {
+	color: #999;
+	display: inline;
+	float: left;
+	height: 27px;
+	line-height: 1.5em;
+	padding: 4px 10px 0px 10px;
+}
+a#signin {
+	color: #6699cc;
+}
+a:hover#signin {
+	color: #336699;
+}
+
+#maintop {
+	margin: 80px auto 0 auto;
+	width: 900px;
+}
+
+#slogans h1 {
+	font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+	font-size: 58px;
+	font-weight: bolder;
+	letter-spacing: -2px;
+	margin: 10px auto 20px auto;
+	width: 900px;
+}
+#slogans h2 {
+	font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+	font-size: 46px;
+	font-weight: bolder;
+	letter-spacing: -2px;
+	margin: 10px auto 20px auto;
+	width: 900px;
+}
+#slogans span {
+	color: #336699;
+	text-decoration: underline;
+}
+
+#slogansub {
+	font-family: 'Crimson Text', 'Times New Roman', Georgia, serif;
+	font-size: 20px;
+	font-weight: bolder;
+	margin: 5px auto 15px auto;
+	width: 900px;
+}
+
+#basecampslogan,
+#highriseslogan,
+#campfireslogan {
+	display: none;
+}
+#basecampslogan h5,
+#highriseslogan h5,
+#campfireslogan h5 {
+	color: #222;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+	width: 900px;
+}
+#basecampslogan img {
+	margin-right: 300px;
+}
+#highriseslogan img {
+	margin-left: 150px;
+}
+#campfireslogan img {
+	margin-left: 290px;
+}
+
+#products {
+	margin: 10px auto 0 auto;
+	position: absolute;
+	top: 290px;
+	width: 900px;
+	z-index: -1;
+}
+#basecamp, #highrise, #campfire {
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	display: inline-block;
+	height: 222px;
+	margin: 15px 20px 5px 20px;
+	overflow: hidden;
+	padding: 20px 10px 10px 10px;
+	width: 160px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+}
+#products h3, h4, h5 {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+#products h3 {
+	color: #369;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.4em;
+	margin: 0px 0 0 10px;
+}
+#products h4 {
+	color: #cc0000;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 7.5px 0 15px 0;
+}
+#products h5 {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+#products sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+	vertical-align: super;
+}
+#products span {
+	text-decoration: underline;
+}
